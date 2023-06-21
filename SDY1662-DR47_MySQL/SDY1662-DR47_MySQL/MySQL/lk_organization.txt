@@ -1,0 +1,168 @@
+University of Southern California~@~\N~@@~
+Columbia University~@~\N~@@~
+University of Pennsylvania Medical Center, Department of Surgery~@~\N~@@~
+Blood and Marrow Transplant Program, Colorado Blood Cancer Institute, Presbyterian/St. Luke's~@~\N~@@~
+University of Alberta, Clinical Islet Transplant Program~@~\N~@@~
+NC State university~@~\N~@@~
+Mount Sinai School of Medicine, Ricanati Miller Transplant Institute~@~\N~@@~
+Children's Hospital Oakland Research Institute (CHORI)~@~\N~@@~
+University of Miami~@~\N~@@~
+Dana-Farber Cancer Institute~@~\N~@@~
+University of North Carolina, Chapel Hill~@~\N~@@~
+Experimental Therapeutics~@~\N~@@~
+Department of Microbiology~@~\N~@@~
+Children's Hospital, Boston~@~\N~@@~
+National Jewish Medical and Research Center~@~\N~@@~
+University of California at San Diego~@~\N~@@~
+Emory Vaccine Center, Emory University~@~\N~@@~
+BloodCenter of Wisconsin~@~\N~@@~
+University of Arizona~@~\N~@@~
+UVA~@~\N~@@~
+University of Michigan~@~\N~@@~
+-~@~\N~@@~
+NC State Univerisity~@~\N~@@~
+University of North Carolina at Chapel Hill~@~\N~@@~
+Johns Hopkins University School of Medicine~@~\N~@@~
+Brigham and Women's Hospital~@~\N~@@~
+Baylor University Medical Center~@~\N~@@~
+Hope Clinic~@~\N~@@~
+STANFORD UNIVERSITY~@~\N~@@~
+Brigham and Women's Hospital, Harvard Medical School~@~\N~@@~
+Colorado Blood Cancer Institute~@~\N~@@~
+Medicine and Human Genetics~@~\N~@@~
+Johns Hopkins Asthma and Allergy Center~@~\N~@@~
+College of Veterinary Medicine, University of Georgia~@~\N~@@~
+MNHN~@~\N~@@~
+placeholder~@~\N~@@~
+Stanford~@~\N~@@~
+Stanford University School of Medicine~@~\N~@@~
+Department of Pediatrics, Cedars-Sinai Medical Center~@~\N~@@~
+HIPC~@~\N~@@~
+UCSD~@~\N~@@~
+Harvard Medical School~@~\N~@@~
+Cleveland Clinic~@~\N~@@~
+Medicine and Hematopathology Laboratories~@~\N~@@~
+Feinstein Institute~@~\N~@@~
+UT Health~@~\N~@@~
+Oregon Health Science Univ~@~\N~@@~
+University of Alabama at Birmingham Neurofibromatosis Program~@~\N~@@~
+Department of Microbiology, Mount Sinai Health System~@~\N~@@~
+University of Washington~@~\N~@@~
+Northrup Grumman, Information Systems~@~\N~@@~
+Yale School of Medicine~@~\N~@@~
+Baylor Research Institute~@~\N~@@~
+Stanford University~@~\N~@@~
+University of Pennsylvania School of Medicine~@~\N~@@~
+Boston Children's Hospital~@~\N~@@~
+King's College London~@~\N~@@~
+Boston University~@~\N~@@~
+Oregon Health and Science University~@~\N~@@~
+Cincinnati Children's Hospital Medical Center, Cincinnati, Ohio~@~\N~@@~
+Division of Rheumatology, Immunology, and Allergy, Brigham and Women's Hospital Hospital and Harvard Medical School~@~\N~@@~
+TCG-ISI Centre for Population Genomics, India~@~\N~@@~
+Univ. of Colorado School of Medicine~@~\N~@@~
+National Jewish Health~@~\N~@@~
+University of Alabama at Birmingham~@~\N~@@~
+Mayo Vaccine Research Group~@~\N~@@~
+Duke Human Vaccine Institute~@~\N~@@~
+Mount Sinai School of Medicine~@~\N~@@~
+Duke University~@~\N~@@~
+University of Rochester Center for Biodefense Immune Modeling~@~\N~@@~
+University of Pennsylvania~@~\N~@@~
+University of California, San Francisco~@~\N~@@~
+Stanford School of Medicine~@~\N~@@~
+Indiana University and Riley Hospital for Children~@~\N~@@~
+Washington University in St. Louis~@~\N~@@~
+Univerisity of Alabama at Birmingham (UAB)~@~\N~@@~
+Ricanati Miller Transplant Institute, Mount Sinai School of Medicine~@~\N~@@~
+Drexel University College of Medicine~@~\N~@@~
+HSS~@~\N~@@~
+Joslin Diabetes Center~@~\N~@@~
+New York Influenza Center of Excellence, University of Rochester Medical Center~@~\N~@@~
+Duke University, NC~@~\N~@@~
+Department of Pathology and Molecular Medicine~@~\N~@@~
+Emory Transplant Center~@~\N~@@~
+The University of Bonn, Germany~@~\N~@@~
+Icahn School of Medicine at Mount Sinai~@~\N~@@~
+Yale ~@~\N~@@~
+Dynavax Technologies Corporation~@~\N~@@~
+University of Alabama at Birmingham (UAB)~@~\N~@@~
+NIMML~@~\N~@@~
+UCLA~@~\N~@@~
+NATIONWIDE CHILDREN'S HOSPITAL~@~\N~@@~
+Vaccine Research Center, National Institute of Allergy and Infectious Diseases (NIAID)~@~\N~@@~
+Department of Immunology~@~\N~@@~
+University of Rochester School of Medicine~@~\N~@@~
+University of Edinburgh~@~\N~@@~
+Univeristy of Arizona~@~\N~@@~
+Baylor Institute for Immunology research~@~\N~@@~
+University of Pennsylvania Medical Center~@~\N~@@~
+NYU School of Medicine~@~\N~@@~
+The Rockefeller University~@~\N~@@~
+Children's Hospital of Oakland Research Institute~@~\N~@@~
+University of Toronto~@~\N~@@~
+Brigham Young University~@~\N~@@~
+Oregon Health & Science University~@~\N~@@~
+Children's Memorial Hospital~@~\N~@@~
+Mayo Clinic~@~\N~@@~
+IMMIP~@~\N~@@~
+Johns Hopkins University~@~\N~@@~
+March of Dimes Prematurity Research Center at Stanford University School of Medicine~@~\N~@@~
+Division of Nephrology and Hypertension, Mayo Clinic~@~\N~@@~
+Baylor Reasearch Institute~@~\N~@@~
+University of Wisconsin, Madison~@~\N~@@~
+The Wistar Institute~@~\N~@@~
+University of Oklahoma Health Sciences Center~@~\N~@@~
+Oklahoma Medical Research Foundation (OMRF)~@~\N~@@~
+Emory Vaccine Center, Emory University, Atlanta GA 30329~@~\N~@@~
+Nationwide Children's Hospital~@~\N~@@~
+The Broad Institute~@~\N~@@~
+FHCRC~@~\N~@@~
+WWAMI Regional Center for Excellence in Biodefense (RCE)~@~\N~@@~
+Feinstein Institute for Medical Research NS-LIJ Health System~@~\N~@@~
+Dana Farber Cancer Institute~@~\N~@@~
+BRI~@~\N~@@~
+ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI~@~\N~@@~
+University hospital Zurich~@~\N~@@~
+Research Triangle Institute, NC~@~\N~@@~
+deCODE~@~\N~@@~
+New York Influenza Center of Excellence~@~\N~@@~
+University of Rochester Medical Center~@~\N~@@~
+Northwestern University~@~\N~@@~
+?~@~\N~@@~
+Johns Hopkins Medical Institute~@~\N~@@~
+University of Rochester~@~\N~@@~
+Arkansas Children's Hospital~@~\N~@@~
+University of California, Berkeley~@~\N~@@~
+Emory University~@~\N~@@~
+Cincinnati Children's Hospital Medical Center~@~\N~@@~
+Baylor Institute for Immunology Research~@~\N~@@~
+Center for Expression Arrays~@~\N~@@~
+UCLA Center for Vaccine Research~@~\N~@@~
+NC STATE UNIVERSITY~@~\N~@@~
+Yale University~@~\N~@@~
+Oklahoma Medical Research Foundation~@~\N~@@~
+Telethon Institute for Child Health Research~@~\N~@@~
+Seattle BioMed~@~\N~@@~
+Benaroya Research Institute~@~\N~@@~
+Yale Cancer Center, Yale University School of Medicine~@~\N~@@~
+Yale university~@~\N~@@~
+Creighton University School of Medicine~@~\N~@@~
+Pathology & Molecular Medicine and Clinical Epidemiology and Biostatistics~@~\N~@@~
+School of Medicine~@~\N~@@~
+Children's Hospital Boston~@~\N~@@~
+University of Minnesota Medical School~@~\N~@@~
+college~@~\N~@@~
+University Name~@~\N~@@~
+NIH~@~\N~@@~
+University of Pittsburgh~@~\N~@@~
+Yale~@~\N~@@~
+U Pittsburgh~@~\N~@@~
+University of Cincinnati~@~\N~@@~
+School of Medicine, Emory University ~@~\N~@@~
+PPD~@~\N~@@~
+Duke University Medical Center~@~\N~@@~
+Department of Infectious Diseases, University of Georgia~@~\N~@@~
+La Jolla Institute for Allergy and Immunology~@~\N~@@~
+La Jolla Institute~@~\N~@@~
+VBI~@~\N~@@~

@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/study_2_condition_or_disease.txt"
+    into table study_2_condition_or_disease
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      study_accession,
+      condition_reported,
+      condition_preferred
+    );

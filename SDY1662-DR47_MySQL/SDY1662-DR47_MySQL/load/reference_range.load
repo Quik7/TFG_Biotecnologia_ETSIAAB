@@ -1,0 +1,18 @@
+LOAD DATA LOCAL INFILE "../MySQL/reference_range.txt"
+    into table reference_range
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      reference_range_accession,
+      age_range,
+      category,
+      gender,
+      lab_or_study_source,
+      lower_limit,
+      study_accession,
+      subject_condition,
+      test_or_assessment_name,
+      unit_of_measure,
+      upper_limit,
+      workspace_id
+    );

@@ -1,0 +1,13 @@
+LOAD DATA LOCAL INFILE "../MySQL/arm_or_cohort.txt"
+    into table arm_or_cohort
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      arm_accession,
+      description,
+      name,
+      study_accession,
+      type_reported,
+      type_preferred,
+      workspace_id
+    );

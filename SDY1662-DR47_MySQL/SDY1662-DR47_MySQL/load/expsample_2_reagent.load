@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/expsample_2_reagent.txt"
+    into table expsample_2_reagent
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      expsample_accession,
+      reagent_accession
+    );
+

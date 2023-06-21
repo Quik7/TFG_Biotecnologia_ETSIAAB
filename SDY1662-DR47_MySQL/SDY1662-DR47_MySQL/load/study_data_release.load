@@ -1,0 +1,10 @@
+LOAD DATA LOCAL INFILE "../MySQL/study_data_release.txt"
+    into table study_data_release
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      study_accession,
+      data_release_version,
+      data_release_date,
+      status
+    );

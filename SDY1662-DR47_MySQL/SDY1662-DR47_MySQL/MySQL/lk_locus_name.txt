@@ -1,0 +1,11 @@
+HLA-A~@~\N~@~\N~@@~
+HLA-B~@~\N~@~\N~@@~
+HLA-C~@~\N~@~\N~@@~
+HLA-DPA1~@~\N~@~\N~@@~
+HLA-DPB1~@~\N~@~\N~@@~
+HLA-DQA1~@~\N~@~\N~@@~
+HLA-DQB1~@~\N~@~\N~@@~
+HLA-DRB1~@~\N~@~\N~@@~
+HLA-DRB3~@~\N~@~\N~@@~
+HLA-DRB4~@~\N~@~\N~@@~
+HLA-DRB5~@~\N~@~\N~@@~

@@ -1,0 +1,19 @@
+LOAD DATA LOCAL INFILE "../MySQL/fcs_header.txt"
+    into table fcs_header
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      fcs_header_id,
+      compensation_flag,
+      expsample_accession,
+      fcs_file_name,
+      fcs_header_text,
+      fcs_version,
+      file_info_id,
+      maximum_intensity,
+      minimum_intensity,
+      number_of_events,
+      number_of_markers,
+      panel_preferred,
+      panel_reported
+    );

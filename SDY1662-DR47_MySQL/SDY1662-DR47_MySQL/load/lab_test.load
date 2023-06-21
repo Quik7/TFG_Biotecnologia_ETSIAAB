@@ -1,0 +1,17 @@
+LOAD DATA LOCAL INFILE "../MySQL/lab_test.txt"
+    into table lab_test
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      lab_test_accession,
+      lab_test_panel_accession,
+      biosample_accession,
+      name_preferred,
+      name_reported,
+      reference_range_accession,
+      result_unit_preferred,
+      result_unit_reported,
+      result_value_preferred,
+      result_value_reported,
+      workspace_id
+);

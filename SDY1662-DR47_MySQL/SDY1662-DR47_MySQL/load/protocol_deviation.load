@@ -1,0 +1,17 @@
+LOAD DATA LOCAL INFILE "../MySQL/protocol_deviation.txt"
+    into table protocol_deviation
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      protocol_deviation_accession,
+      description,
+      is_adverse_event_related,
+      reason_for_deviation,
+      resolution_of_deviation,
+      study_accession,
+      study_end_day,
+      study_start_day,
+      subject_accession,
+      subject_continued_study,
+      workspace_id
+    );

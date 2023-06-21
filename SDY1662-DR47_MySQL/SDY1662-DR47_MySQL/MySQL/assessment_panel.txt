@@ -1,0 +1,3 @@
+AP120110~@~Medical history~@~\N~@~Comorbidities~@~OTHER~@~\N~@~SDY1662~@~4875~@@~
+AP120113~@~\N~@~\N~@~Vital Signs~@~OTHER~@~\N~@~SDY1662~@~4875~@@~
+AP120114~@~\N~@~\N~@~Disease Outcome~@~OTHER~@~\N~@~SDY1662~@~4875~@@~

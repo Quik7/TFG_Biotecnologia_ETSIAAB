@@ -1,0 +1,27 @@
+LOAD DATA LOCAL INFILE "../MySQL/rna_seq_result.txt"
+    into table rna_seq_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      arm_accession,
+      biosample_accession,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      reference_repository_name,
+      reference_transcript_id,
+      repository_accession,
+      repository_name,
+      result_unit_preferred,
+      result_unit_reported,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      transcript_type_preferred,
+      transcript_type_reported,
+      value_preferred,
+      value_reported,
+      workspace_id
+    );

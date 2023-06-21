@@ -1,0 +1,21 @@
+LOAD DATA LOCAL INFILE "../MySQL/standard_curve.txt"
+    into table standard_curve
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      standard_curve_accession,
+      analyte_accession,
+      analyte_preferred,
+      analyte_reported,
+      assay_group_id,
+      assay_id,
+      experiment_accession,
+      formula,
+      lower_limit,
+      lower_limit_unit,
+      result_schema,
+      upload_result_status,
+      upper_limit,
+      upper_limit_unit,
+      workspace_id
+    );

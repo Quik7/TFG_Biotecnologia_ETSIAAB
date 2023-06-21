@@ -1,0 +1,26 @@
+LOAD DATA LOCAL INFILE "../MySQL/elisa_result.txt"
+    into table elisa_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      analyte_accession,
+      analyte_preferred,
+      analyte_reported,
+      arm_accession,
+      biosample_accession,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      repository_accession,
+      repository_name,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      unit_preferred,
+      unit_reported,
+      value_preferred,
+      value_reported,
+      workspace_id
+    );

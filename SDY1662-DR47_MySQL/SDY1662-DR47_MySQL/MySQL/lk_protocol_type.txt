@@ -1,0 +1,21 @@
+Assay~@~Protocol used to assay or measure an experiment sample~@~\N~@@~
+Bio Sample Preparation~@~Biological Sample Preparation.~@~\N~@@~
+Bio Sample Treatment~@~Protocol used to prepare Biological Sample.~@~\N~@@~
+Biomaterial Transformation~@~Protocol used to prepare or modify a biological sample~@~\N~@@~
+Clinical~@~Clinical~@~\N~@@~
+Data Processing~@~Data Processing~@~\N~@@~
+Data Transformation~@~Protocol used to analyze or reformat data~@~\N~@@~
+Experiment~@~Protocol used in the Experiment.~@~\N~@@~
+Experimental Sample~@~Protocol used for Experimental Sample.~@~\N~@@~
+Not Specified~@~Protcol Type is not specified or not received. If no Protocol Type value is received, then this is the system default value.~@~\N~@@~
+Other~@~Other~@~\N~@@~
+Study Protocol~@~'Study_Protocol' Study design description.~@~\N~@@~
+Study Summary~@~'Study_Summary' Study review after a study is closed.~@~\N~@@~
+Subject Organism Treatment~@~Subject Organism Treatment~@~\N~@@~
+Clinical Trials Operational Procedure Manual~@~Documentation describing clinical trial-related work processes.~@~http://purl.obolibrary.org/obo/NCIT_C115764~@@~
+Institutional Review Board Independent Ethics Committee Informed Consent Document~@~Records approved by the Institutional Review Board (IRB)/Independent Ethics Committee (IEC), explaining study information to assist study volunteers in understanding the expectations and requirements of trial participation.~@~http://purl.obolibrary.org/obo/NCIT_C115697~@@~
+Clinical Trial Monitoring Plan~@~A proposed method to ensure the adequate monitoring of subjects during a clinical trial.~@~http://purl.obolibrary.org/obo/NCIT_C115753~@@~
+Laboratory Sample Manual~@~Documentation describing work processes and procedures for the collection, handling, and shipping of a sample.~@~http://purl.obolibrary.org/obo/NCIT_C115541~@@~
+Clinical Study Protocol~@~Clinical Study Protocol~@~http://purl.obolibrary.org/obo/NCIT_C25320~@@~
+Statistical Analysis Documentation~@~Statistical Analysis Documentation~@~http://purl.obolibrary.org/obo/NCIT_C115732~@@~
+Case Report Form~@~Case Report Form~@~http://purl.obolibrary.org/obo/NCIT_C40988~@@~

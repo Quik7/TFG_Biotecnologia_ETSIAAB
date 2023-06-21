@@ -1,0 +1,10 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_exposure_material.txt"
+    into table lk_exposure_material
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      exposure_material_id,
+      description,
+      link
+    );

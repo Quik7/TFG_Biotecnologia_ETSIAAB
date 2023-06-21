@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/expsample_mbaa_detail.txt"
+    into table expsample_mbaa_detail
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      expsample_accession,
+      assay_group_id,
+      assay_id,
+      dilution_factor,
+      plate_type
+    );

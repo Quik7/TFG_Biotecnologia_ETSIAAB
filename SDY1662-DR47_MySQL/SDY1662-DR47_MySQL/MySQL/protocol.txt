@@ -1,0 +1,3 @@
+PTL10290~@~\N~@~valle.methods.PTL10290.txt~@~AN INFLAMMATORY CYTOKINE SIGNATURE HELPS PREDICT COVID-19 SEVERITY AND DEATH Methods~@~valle.methods.txt~@~Study Protocol~@~4875~@@~
+PTL10294~@~Protein Simple ELLA~@~Ella_brochure_RevF.PTL10294.PDF~@~Protein Simple ELLA~@~Ella_brochure_RevF.PDF~@~Experiment~@~4875~@@~
+PTL10295~@~\N~@~data_dictionary.PTL10295.txt~@~Data Dictionary~@~data_dictionary.txt~@~Study Protocol~@~4875~@@~

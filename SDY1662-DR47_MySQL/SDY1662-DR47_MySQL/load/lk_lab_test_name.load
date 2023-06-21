@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_lab_test_name.txt"
+    into table lk_lab_test_name
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      cdisc_lab_test_code,
+      description,
+      lab_test_panel_name,
+      link
+    );

@@ -1,0 +1,30 @@
+LOAD DATA LOCAL INFILE "../MySQL/intervention.txt"
+    into table intervention
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      intervention_accession,
+      compound_name_reported,
+      compound_role,
+      dose,
+      dose_freq_per_interval,
+      dose_reported,
+      dose_units,
+      duration,
+      duration_unit,
+      end_day,
+      end_time,
+      formulation,
+      is_ongoing,
+      name_preferred,
+      name_reported,
+      reported_indication,
+      route_of_admin_preferred,
+      route_of_admin_reported,
+      start_day,
+      start_time,
+      status,
+      study_accession,
+      subject_accession,
+      workspace_id
+    );

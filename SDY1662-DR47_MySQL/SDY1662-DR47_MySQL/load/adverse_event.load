@@ -1,0 +1,30 @@
+LOAD DATA LOCAL INFILE "../MySQL/adverse_event.txt"
+    into table adverse_event
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      adverse_event_accession,
+      causality,
+      description,
+      end_study_day,
+      end_time,
+      location_of_reaction_preferred,
+      location_of_reaction_reported,
+      name_preferred,
+      name_reported,
+      organ_or_body_system_preferred,
+      organ_or_body_system_reported,
+      other_action_taken,
+      outcome_preferred,
+      outcome_reported,
+      relation_to_nonstudy_treatment,
+      relation_to_study_treatment,
+      severity_preferred,
+      severity_reported,
+      start_study_day,
+      start_time,
+      study_accession,
+      study_treatment_action_taken,
+      subject_accession,
+      workspace_id
+    );

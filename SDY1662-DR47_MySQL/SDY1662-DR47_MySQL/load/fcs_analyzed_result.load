@@ -1,0 +1,33 @@
+LOAD DATA LOCAL INFILE "../MySQL/fcs_analyzed_result.txt"
+    into table fcs_analyzed_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      arm_accession,
+      biosample_accession,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      parent_population_preferred,
+      parent_population_reported,
+      population_defnition_preferred,
+      population_defnition_reported,
+      population_name_preferred,
+      population_name_reported,
+      population_stat_unit_preferred,
+      population_stat_unit_reported,
+      population_statistic_preferred,
+      population_statistic_reported,
+      repository_accession,
+      repository_name,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      workspace_file_info_id,
+      population_name_modifier,
+      parent_population_modifier,
+      workspace_id
+    );
+

@@ -1,0 +1,17 @@
+LOAD DATA LOCAL INFILE "../MySQL/control_sample.txt"
+    into table control_sample
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      control_sample_accession,
+      assay_group_id,
+      assay_id,
+      catalog_id,
+      dilution_factor,
+      experiment_accession,
+      lot_number,
+      result_schema,
+      source,
+      upload_result_status,
+      workspace_id
+    );

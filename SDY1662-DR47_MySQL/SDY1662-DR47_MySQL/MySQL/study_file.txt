@@ -1,0 +1,1 @@
+SFL19351~@~Study file describes the relationship of PERIOD and STUDY_GLOSSARY to a STUDY providing the content of the PERIOD, PLANNED_VISIT, and STUDY_GLOSSSARY table content for the given study~@~StudyFile.Obsolete.Period.StudyGlossary.ID4633-34.4875.SDY1662.txt~@~SDY1662~@~Study Data~@~4875~@@~

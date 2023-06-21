@@ -1,0 +1,8 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_visibility_category.txt"
+    into table lk_visibility_category
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description
+    );

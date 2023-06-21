@@ -1,0 +1,13 @@
+LOAD DATA LOCAL INFILE "../MySQL/protocol.txt"
+    into table protocol
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+        protocol_accession,
+        description,
+        file_name,
+        name,
+        original_file_name,
+        type,
+        workspace_id
+    );

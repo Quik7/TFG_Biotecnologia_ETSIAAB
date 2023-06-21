@@ -1,0 +1,15 @@
+LOAD DATA LOCAL INFILE "../MySQL/reported_early_termination.txt"
+    into table reported_early_termination
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      early_termination_accession,
+      is_adverse_event_related,
+      is_subject_requested,
+      reason_preferred,
+      reason_reported,
+      study_accession,
+      study_day_reported,
+      subject_accession,
+      workspace_id
+    );

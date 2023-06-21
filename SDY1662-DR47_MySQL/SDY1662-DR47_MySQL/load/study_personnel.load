@@ -1,0 +1,19 @@
+LOAD DATA LOCAL INFILE "../MySQL/study_personnel.txt"
+    into table study_personnel
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      person_accession,
+      email,
+      first_name,
+      honorific,
+      last_name,
+      orcid,
+      organization,
+      role_in_study,
+      site_name,
+      study_accession,
+      suffixes,
+      title_in_study,
+      workspace_id
+    );

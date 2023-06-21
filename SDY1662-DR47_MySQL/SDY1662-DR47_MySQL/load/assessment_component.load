@@ -1,0 +1,35 @@
+LOAD DATA LOCAL INFILE "../MySQL/assessment_component.txt"
+    into table assessment_component
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+        assessment_component_accession,
+        age_at_onset_preferred,
+        age_at_onset_reported,
+        age_at_onset_unit_preferred,
+        age_at_onset_unit_reported,
+        assessment_panel_accession,
+        is_clinically_significant,
+        location_of_finding_preferred,
+        location_of_finding_reported,
+        name_preferred,
+        name_reported,
+        organ_or_body_system_preferred,
+        organ_or_body_system_reported,
+        planned_visit_accession,
+        reference_range_accession,
+        result_unit_preferred,
+        result_unit_reported,
+        result_value_category,
+        result_value_preferred,
+        result_value_reported,
+        study_day,
+        subject_accession,
+        subject_position_preferred,
+        subject_position_reported,
+        time_of_day,
+        verbatim_question,
+        who_is_assessed,
+        workspace_id
+    );
+

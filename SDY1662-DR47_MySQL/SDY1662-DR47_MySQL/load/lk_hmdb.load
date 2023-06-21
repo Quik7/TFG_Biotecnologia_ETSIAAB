@@ -1,0 +1,10 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_hmdb.txt"
+    into table lk_hmdb
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      hmdb_id,
+      name,
+      description,
+      link
+    );

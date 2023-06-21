@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_species.txt"
+    into table lk_species
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      common_name,
+      link,
+      taxonomy_id,
+      taxonomy_id_subset
+    );

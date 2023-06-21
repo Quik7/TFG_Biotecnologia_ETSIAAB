@@ -1,0 +1,7 @@
+CREATE INDEX idx_neut_arm_accession on neut_ab_titer_result(arm_accession);
+CREATE INDEX idx_neut_biosample_accession on neut_ab_titer_result(biosample_accession);
+CREATE INDEX idx_neut_experiment_accession on neut_ab_titer_result(experiment_accession);
+CREATE INDEX idx_neut_expsample_accession on neut_ab_titer_result(expsample_accession);
+CREATE INDEX idx_neut_study_accession on neut_ab_titer_result(study_accession);
+CREATE INDEX idx_neut_subject_accession on neut_ab_titer_result(subject_accession);
+CREATE INDEX idx__workspace on neut_ab_titer_result(workspace_id);

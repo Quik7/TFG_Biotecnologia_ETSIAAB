@@ -1,0 +1,23 @@
+LOAD DATA LOCAL INFILE "../MySQL/kir_typing_result.txt"
+    into table kir_typing_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      allele_1,
+      allele_2,
+      arm_accession,
+      biosample_accession,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      kir_haplotype,
+      repository_accession,
+      repository_name,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      workspace_id
+    );
+

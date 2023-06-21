@@ -1,0 +1,12 @@
+LOAD DATA LOCAL INFILE "../MySQL/study_link.txt"
+    into table study_link
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      study_link_id,
+      name,
+      study_accession,
+      type,
+      value,
+      workspace_id
+    );

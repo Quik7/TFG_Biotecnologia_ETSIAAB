@@ -1,0 +1,4 @@
+CREATE INDEX idx_early_termination_study on reported_early_termination(study_accession);
+CREATE INDEX idx_early_termination_subject on reported_early_termination(subject_accession);
+CREATE INDEX idx_early_termination_workspace on reported_early_termination(workspace_id);
+

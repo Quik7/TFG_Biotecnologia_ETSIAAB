@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_age_event.txt"
+    into table lk_age_event
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );

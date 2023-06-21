@@ -1,0 +1,1 @@
+CREATE INDEX idx_contract_grant_2_study_study on contract_grant_2_study(study_accession,contract_grant_id);

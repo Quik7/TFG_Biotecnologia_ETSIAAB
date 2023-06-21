@@ -1,0 +1,12 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_cell_population.txt"
+    into table lk_cell_population
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      comments,
+      definition,
+      description,
+      link,
+      lineage_prefix
+    );

@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/expsample_2_file_info.txt"
+    into table expsample_2_file_info
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+        expsample_accession,
+        file_info_id,
+        result_schema
+    );

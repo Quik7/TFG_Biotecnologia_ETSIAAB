@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/study_glossary.txt"
+    into table study_glossary
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+        study_accession,
+        definition,
+        term,
+        workspace_id
+    );
+

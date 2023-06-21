@@ -1,0 +1,17 @@
+LOAD DATA LOCAL INFILE "../MySQL/study_pubmed.txt"
+    into table study_pubmed
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      study_accession,
+      pubmed_id,
+      authors,
+      doi,
+      issue,
+      journal,
+      month,
+      pages,
+      title,
+      year,
+      workspace_id
+    );

@@ -1,0 +1,5 @@
+ESR25217~@~ANA220~@~TNFA~@~ANA220~@~\N~@~SPCKB-PS-002803~@~\N~@~\N~@~MAB610~@~N~@~\N~@~R & D Systems~@~Simple Plex Human TNF-alpha~@~\N~@~ELISA~@~\N~@~4875~@@~
+ESR25218~@~ANA143~@~IL1B~@~IL1B~@~\N~@~SPCKB-PS-000216~@~\N~@~\N~@~\N~@~N~@~\N~@~R & D Systems~@~Simple Plex Human IL-1 beta~@~\N~@~ELISA~@~\N~@~4875~@@~
+ESR25219~@~ANA178~@~IL6~@~ANA178~@~\N~@~SPCKB-PS-000190~@~\N~@~\N~@~\N~@~N~@~\N~@~R & D Systems~@~Human IL-6 Quantikine~@~\N~@~ELISA~@~\N~@~4875~@@~
+ESR25220~@~ANA72~@~IL8~@~ANA72~@~\N~@~SPCKB-PS-000230~@~\N~@~\N~@~\N~@~N~@~\N~@~R & D Systems~@~Simple Plex Human IL-8~@~\N~@~ELISA~@~\N~@~4875~@@~
+ESR25221~@~\N~@~\N~@~\N~@~\N~@~\N~@~\N~@~\N~@~SIMPLE PLEX COVID-19 CYTOKINE STORM PANEL~@~Y~@~\N~@~\N~@~SIMPLE PLEX COVID-19 CYTOKINE STORM PANEL~@~\N~@~ELISA~@~\N~@~4875~@@~

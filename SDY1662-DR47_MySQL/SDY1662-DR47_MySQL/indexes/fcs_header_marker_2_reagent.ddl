@@ -1,0 +1,2 @@
+CREATE INDEX idx_fcs_header_marker_2_reagent on fcs_header_marker_2_reagent(reagent_accession,fcs_header_id);
+

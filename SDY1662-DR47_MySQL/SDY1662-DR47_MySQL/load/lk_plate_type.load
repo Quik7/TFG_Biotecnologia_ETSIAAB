@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_plate_type.txt"
+    into table lk_plate_type
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );

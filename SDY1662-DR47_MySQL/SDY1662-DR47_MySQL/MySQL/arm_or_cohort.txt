@@ -1,0 +1,2 @@
+ARM5330~@~Cohort of patients seen within the health system between March 21 and April 28, 2020.~@~Original Cohort~@~SDY1662~@~\N~@~\N~@~4875~@@~
+ARM5331~@~Cohort of patients seen after May 7, 2020 to June 23, 2020~@~Validation Cohort~@~SDY1662~@~\N~@~\N~@~4875~@@~

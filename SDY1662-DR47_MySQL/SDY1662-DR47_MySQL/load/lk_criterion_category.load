@@ -1,0 +1,10 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_criterion_category.txt"
+    into table lk_criterion_category
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );
+

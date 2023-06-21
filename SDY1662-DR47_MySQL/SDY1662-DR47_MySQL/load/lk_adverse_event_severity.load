@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_adverse_event_severity.txt"
+    into table lk_adverse_event_severity
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );
+
+

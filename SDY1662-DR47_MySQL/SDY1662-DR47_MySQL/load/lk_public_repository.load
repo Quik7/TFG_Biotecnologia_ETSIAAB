@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_public_repository.txt"
+    into table lk_public_repository
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );

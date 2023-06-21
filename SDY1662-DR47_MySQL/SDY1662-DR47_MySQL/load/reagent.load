@@ -1,0 +1,23 @@
+LOAD DATA LOCAL INFILE "../MySQL/reagent.txt"
+    into table reagent 
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      reagent_accession,
+      analyte_accession,
+      analyte_preferred,
+      analyte_reported,
+      antibody_registry_id,
+      catalog_number,
+      clone_name,
+      contact,
+      description,
+      is_set,
+      lot_number,
+      manufacturer,
+      name,
+      reporter_name,
+      type,
+      weblink,
+      workspace_id
+    );

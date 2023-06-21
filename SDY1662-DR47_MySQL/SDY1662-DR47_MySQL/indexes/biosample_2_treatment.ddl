@@ -1,0 +1,1 @@
+CREATE INDEX idx_biosample_2_treatment on biosample_2_treatment(treatment_accession,biosample_accession);

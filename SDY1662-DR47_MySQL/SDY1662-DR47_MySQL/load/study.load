@@ -1,0 +1,34 @@
+LOAD DATA LOCAL INFILE "../MySQL/study.txt"
+    into table study
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      study_accession,
+      actual_completion_date,
+      actual_enrollment,
+      actual_start_date,
+      age_unit,
+      brief_description,
+      brief_title,
+      clinical_trial,
+      condition_studied,
+      dcl_id,
+      description,
+      doi,
+      endpoints,
+      gender_included,
+      hypothesis,
+      initial_data_release_date,
+      initial_data_release_version,
+      intervention_agent,
+      latest_data_release_date,
+      latest_data_release_version,
+      maximum_age,
+      minimum_age,
+      objectives,
+      official_title,
+      shared_study,
+      sponsoring_organization,
+      target_enrollment,
+      workspace_id
+    );

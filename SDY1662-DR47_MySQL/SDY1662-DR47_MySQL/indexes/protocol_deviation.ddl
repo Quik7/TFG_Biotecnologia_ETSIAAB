@@ -1,0 +1,4 @@
+CREATE INDEX idx_procotol_deviation_study on protocol_deviation(study_accession);
+CREATE INDEX idx_procotol_deviation_subject on protocol_deviation(subject_accession);
+CREATE INDEX idx_procotol_deviation_workspace on protocol_deviation(workspace_id);
+

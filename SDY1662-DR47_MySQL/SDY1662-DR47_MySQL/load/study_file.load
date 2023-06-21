@@ -1,0 +1,12 @@
+LOAD DATA LOCAL INFILE "../MySQL/study_file.txt"
+    into table study_file
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      study_file_accession,
+      description,
+      file_name,
+      study_accession,
+      study_file_type,
+      workspace_id
+    );

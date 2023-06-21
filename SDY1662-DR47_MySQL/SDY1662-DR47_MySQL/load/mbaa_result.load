@@ -1,0 +1,31 @@
+LOAD DATA LOCAL INFILE "../MySQL/mbaa_result.txt"
+    into table mbaa_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      analyte_accession,
+      analyte_preferred,
+      analyte_reported,
+      arm_accession,
+      assay_group_id,
+      assay_id,
+      biosample_accession,
+      comments,
+      concentration_unit_reported,
+      concentration_unit_preferred,
+      concentration_value_reported,
+      concentration_value_preferred,
+      experiment_accession,
+      mfi,
+      mfi_coordinate,
+      repository_accession,
+      repository_name,
+      source_accession,
+      source_type,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      workspace_id
+    );

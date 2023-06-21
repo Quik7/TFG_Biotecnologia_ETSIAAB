@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/inclusion_exclusion.txt"
+    into table inclusion_exclusion
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      criterion_accession,
+      criterion,
+      criterion_category,
+      study_accession,
+      workspace_id
+    );

@@ -1,0 +1,2 @@
+PV8981~@~\N~@~0~@~0~@~Admission to Hospital; Cytokine Sample~@~1~@~\N~@~SDY1662~@~4875~@@~
+PV8982~@~\N~@~41~@~3~@~Last follow-up visit (i.e., date of discharge, date of death, or date still in hospital, whichever is latest)~@~2~@~\N~@~SDY1662~@~4875~@@~

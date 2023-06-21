@@ -1,0 +1,10 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_ancestral_population.txt"
+    into table lk_ancestral_population
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      abbreviation,
+      description,
+      link
+    );

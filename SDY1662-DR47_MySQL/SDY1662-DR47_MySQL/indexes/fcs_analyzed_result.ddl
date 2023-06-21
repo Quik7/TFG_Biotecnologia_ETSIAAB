@@ -1,0 +1,7 @@
+CREATE INDEX idx_fcs_analyzed_study_accession on fcs_analyzed_result(study_accession);
+CREATE INDEX idx_fcs_analyzed_arm_accession on fcs_analyzed_result(arm_accession);
+CREATE INDEX idx_fcs_analyzed_biosample_accession on fcs_analyzed_result(biosample_accession);
+CREATE INDEX idx_fcs_analyzed_experiment_accession on fcs_analyzed_result(experiment_accession);
+CREATE INDEX idx_fcs_analyzed_expsample_accession on fcs_analyzed_result(expsample_accession);
+CREATE INDEX idx_fcs_analyzed_subject_accession on fcs_analyzed_result(subject_accession);
+CREATE INDEX idx_fcs_analyzed_workspace on fcs_analyzed_result(workspace_id);

@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_research_focus.txt"
+    into table lk_research_focus
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );

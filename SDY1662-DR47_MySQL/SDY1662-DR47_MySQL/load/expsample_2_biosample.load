@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/expsample_2_biosample.txt"
+    into table expsample_2_biosample
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      biosample_accession,
+      expsample_accession
+    );
+

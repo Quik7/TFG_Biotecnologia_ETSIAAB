@@ -1,0 +1,3 @@
+CONTROL SAMPLE~@~Sample used to perform quality control of assay results.~@~\N~@@~
+EXPSAMPLE~@~Biological sample that is assayed or measured.~@~\N~@@~
+STANDARD CURVE~@~An analysis product from analyzing the assay result from known quantities and used to interpret the assay result from a sample.~@~\N~@@~

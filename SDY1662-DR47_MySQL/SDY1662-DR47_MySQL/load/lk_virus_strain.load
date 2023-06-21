@@ -1,0 +1,13 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_virus_strain.txt"
+    into table lk_virus_strain
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      center_id_name_season_list,
+      description,
+      link,
+      season_list,
+      taxonomy_id,
+      virus_name
+    );

@@ -1,0 +1,26 @@
+LOAD DATA LOCAL INFILE "../MySQL/neut_ab_titer_result.txt"
+    into table neut_ab_titer_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      arm_accession,
+      biosample_accession,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      repository_accession,
+      repository_name,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      unit_preferred,
+      unit_reported,
+      value_preferred,
+      value_reported,
+      virus_strain_preferred,
+      virus_strain_reported,
+      workspace_id
+    );
+

@@ -1,0 +1,3 @@
+LP30289~@~\N~@~Blood Chemistry~@~SDY1662~@~4875~@@~
+LP30290~@~Blood Cell Count~@~Blood Cell Count~@~SDY1662~@~4875~@@~
+LP30291~@~\N~@~SARS-CoV-2 PCR~@~SDY1662~@~4875~@@~

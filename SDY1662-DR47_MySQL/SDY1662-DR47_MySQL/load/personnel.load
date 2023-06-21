@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/personnel.txt"
+    into table personnel
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      personnel_id,
+      email,
+      first_name,
+      last_name,
+      organization
+    );

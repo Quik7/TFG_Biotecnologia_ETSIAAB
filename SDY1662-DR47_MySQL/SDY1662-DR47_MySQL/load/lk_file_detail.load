@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_file_detail.txt"
+    into table lk_file_detail
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );

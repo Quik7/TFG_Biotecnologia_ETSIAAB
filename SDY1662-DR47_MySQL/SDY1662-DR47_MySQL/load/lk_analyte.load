@@ -1,0 +1,21 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_analyte.txt"
+    into table lk_analyte
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      analyte_accession,
+      gene_symbol,
+      gene_aliases,
+      gene_id,
+      genetic_nomenclature_id,
+      immunology_symbol,
+      link,
+      official_gene_name,
+      protein_ontology_id,
+      protein_ontology_name,
+      protein_ontology_synonyms,
+      protein_ontology_short_label,
+      taxonomy_id,
+      uniprot_entry,
+      uniprot_entry_name
+    );

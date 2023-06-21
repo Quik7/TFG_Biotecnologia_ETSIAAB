@@ -1,0 +1,62 @@
+#========================================================================
+# Instruction for Creating and Loading the Study database into MySQL
+#========================================================================
+These instructions assume you want to create the tables in a database
+named "DRXX_SHARED_DATA", but you can choose your own name. For example,
+we keep multiple versions, one for each release, so we use database names
+like DR35_SHARED_DATA or DR36_SHARED_DATA, etc.
+
+1) Create empty database, e.g., "DRXX_SHARED_DATA". Login into mysql as root
+   (or a user with sufficient privileges to accomplish the steps below
+   and run the following commands:
+
+   create database DRXX_SHARED_DATA CHARACTER SET utf8;
+
+2) Create the tables, indexes and foreign keys. The scripts require
+   4 paramaters to be specified: Host, User, Password and Database
+
+   cd to the scripts directory.
+
+   Step 1: Create the lookup tables.
+
+           ./createLkSchema.sh Host User Password Database
+
+   Note: Begining with DR36, Step 2 as separted into 2 Steps.
+         By separating the table creation DDL from the
+         index DDL creation loading time should be improved
+
+   ##Step 2: Create the research/study/clincal tables.
+   ##        ./createResearchSchema.sh Host User Password Database
+
+   Step 2: Create the research tables
+           
+           /createResearchTables.sh Host User Password Database
+
+
+3) Load the data. The scripts require 4 parameters to be specified:
+   Host, User, Password and Database
+
+   cd to the scripts directory.
+
+   Step 1: Load the data for the lookup tables.
+
+           ./loadLkData.sh Host User Password Database
+
+   ##Step 2: Load in the research/study/clinical tables
+   ##      ./loadResearchData.sh Host User Password Database
+
+   Step 2: Load the data for the research tables
+
+           ./loadResearchData.sh Host User Password Database
+
+   Step 3: Create indexes for the tables loaded in Step 2.
+
+           ./createResearchIndexes.sh Host User Password Database
+
+
+   Step 4: Optional: Create the foreign keys
+           This step may produce a couple of error messages for a couple
+           of studies. We are in the process of fixing the primary data,
+           for these isolated cases.
+
+           ./createForeignKeys.sh Host User Password Database

@@ -1,0 +1,2 @@
+CRIT10496~@~Suspected or confirmed SARS-CoV-2 infection~@~Inclusion~@~SDY1662~@~4875~@@~
+CRIT10497~@~Cytokine measurements available~@~Inclusion~@~SDY1662~@~4875~@@~

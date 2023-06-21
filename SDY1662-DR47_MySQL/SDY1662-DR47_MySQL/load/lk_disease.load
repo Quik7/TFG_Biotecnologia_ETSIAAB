@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_disease.txt"
+    into table lk_disease
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      disease_ontology_id,
+      description,
+      link,
+      human_phenotype_id
+    );

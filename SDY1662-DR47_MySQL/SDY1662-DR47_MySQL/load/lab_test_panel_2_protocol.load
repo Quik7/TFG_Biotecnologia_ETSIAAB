@@ -1,0 +1,8 @@
+LOAD DATA LOCAL INFILE "../MySQL/lab_test_panel_2_protocol.txt"
+    into table lab_test_panel_2_protocol
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+        lab_test_panel_accession,
+        protocol_accession
+    );

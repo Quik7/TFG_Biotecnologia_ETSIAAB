@@ -1,0 +1,1 @@
+CREATE INDEX idx_experiment_2_protocol on experiment_2_protocol(protocol_accession,experiment_accession);

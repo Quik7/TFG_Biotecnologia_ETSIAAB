@@ -1,0 +1,31 @@
+LOAD DATA LOCAL INFILE "../MySQL/mass_spectrometry_result.txt"
+    into table mass_spectrometry_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      arm_accession,
+      biosample_accession,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      intensity,
+      retention_time,
+      retention_time_unit,
+      m_z_ratio,
+      z_charge,
+      database_id_reported,
+      database_id_preferred,
+      mass_spectrometry_type,
+      metabolite_name_reported,
+      metabolite_name_preferred,
+      protein_name_reported,
+      protein_name_preferred,
+      repository_accession,
+      repository_name,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      workspace_id
+    );

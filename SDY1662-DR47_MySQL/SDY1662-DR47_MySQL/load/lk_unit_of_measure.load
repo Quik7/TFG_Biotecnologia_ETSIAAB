@@ -1,0 +1,10 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_unit_of_measure.txt"
+    into table lk_unit_of_measure
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link,
+      type
+    );

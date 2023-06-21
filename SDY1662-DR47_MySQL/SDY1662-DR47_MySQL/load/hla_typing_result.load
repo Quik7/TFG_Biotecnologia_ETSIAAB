@@ -1,0 +1,25 @@
+LOAD DATA LOCAL INFILE "../MySQL/hla_typing_result.txt"
+    into table hla_typing_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      allele_1,
+      allele_2,
+      ancestral_population,
+      arm_accession,
+      biosample_accession,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      locus_name,
+      repository_accession,
+      repository_name,
+      result_set_id,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      workspace_id
+    );
+

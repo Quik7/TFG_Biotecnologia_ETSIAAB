@@ -1,0 +1,27 @@
+LOAD DATA LOCAL INFILE "../MySQL/elispot_result.txt"
+    into table elispot_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      analyte_accession,
+      analyte_preferred,
+      analyte_reported,
+      arm_accession,
+      biosample_accession,
+      cell_number_preferred,
+      cell_number_reported,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      repository_accession,
+      repository_name,
+      spot_number_preferred,
+      spot_number_reported,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      workspace_id
+    );
+

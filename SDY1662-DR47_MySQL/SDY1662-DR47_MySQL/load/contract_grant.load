@@ -1,0 +1,15 @@
+LOAD DATA LOCAL INFILE "../MySQL/contract_grant.txt"
+    into table contract_grant
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      contract_grant_id,
+      category,
+      description,
+      end_date,
+      external_id,
+      link,
+      name,
+      program_id,
+      start_date
+    );

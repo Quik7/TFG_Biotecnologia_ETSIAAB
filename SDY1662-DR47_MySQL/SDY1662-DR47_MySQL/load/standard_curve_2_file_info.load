@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/standard_curve_2_file_info.txt"
+    into table standard_curve_2_file_info
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+        standard_curve_accession,
+        file_info_id,
+        result_schema
+    );

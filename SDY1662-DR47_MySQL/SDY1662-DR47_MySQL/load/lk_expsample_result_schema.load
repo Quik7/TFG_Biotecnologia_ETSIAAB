@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_expsample_result_schema.txt"
+    into table lk_expsample_result_schema
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name, 
+      description,
+      table_name
+    );

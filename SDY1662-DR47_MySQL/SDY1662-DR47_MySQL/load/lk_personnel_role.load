@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_personnel_role.txt"
+    into table lk_personnel_role
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );

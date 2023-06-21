@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/reagent_set_2_reagent.txt"
+    into table reagent_set_2_reagent 
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      reagent_set_accession,
+      reagent_accession,
+      workspace_id
+    );

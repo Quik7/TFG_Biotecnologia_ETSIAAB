@@ -1,0 +1,10 @@
+LOAD DATA LOCAL INFILE "../MySQL/expsample_public_repository.txt"
+    into table expsample_public_repository
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      expsample_accession,
+      repository_accession,
+      repository_name
+    );

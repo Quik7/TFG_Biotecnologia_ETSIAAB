@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_cell_population_marker.txt"
+    into table lk_cell_population_marker
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      description,
+      link
+    );

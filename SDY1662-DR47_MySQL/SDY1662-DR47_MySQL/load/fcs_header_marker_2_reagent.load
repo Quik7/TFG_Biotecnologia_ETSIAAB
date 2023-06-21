@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/fcs_header_marker_2_reagent.txt"
+    into table fcs_header_marker_2_reagent
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      fcs_header_id,
+      parameter_number,
+      reagent_accession
+    );

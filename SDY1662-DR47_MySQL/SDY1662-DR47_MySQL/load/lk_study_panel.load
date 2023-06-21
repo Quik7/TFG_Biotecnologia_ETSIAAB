@@ -1,0 +1,12 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_study_panel.txt"
+    into table lk_study_panel
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      collapsible,
+      description,
+      display_name,
+      sort_order,
+      visible
+    );

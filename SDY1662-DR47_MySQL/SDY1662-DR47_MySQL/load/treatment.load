@@ -1,0 +1,16 @@
+LOAD DATA LOCAL INFILE "../MySQL/treatment.txt"
+    into table treatment
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      treatment_accession,
+      amount_unit,
+      amount_value,
+      comments,
+      duration_unit,
+      duration_value,
+      name,
+      temperature_unit,
+      temperature_value,
+      workspace_id
+    );

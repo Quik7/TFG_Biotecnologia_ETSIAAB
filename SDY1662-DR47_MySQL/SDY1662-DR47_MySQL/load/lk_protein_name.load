@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/lk_protein_name.txt"
+    into table lk_protein_name
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      name,
+      uniprot_id,
+      uniprot_gene_name,
+      description,
+      link
+    );

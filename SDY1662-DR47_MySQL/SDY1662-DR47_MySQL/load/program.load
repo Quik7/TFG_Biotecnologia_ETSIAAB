@@ -1,0 +1,14 @@
+LOAD DATA LOCAL INFILE "../MySQL/program.txt"
+    into table program
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      program_id,
+      category,
+      description,
+      end_date,
+      link,
+      name,
+      short_name,
+      start_date
+    );

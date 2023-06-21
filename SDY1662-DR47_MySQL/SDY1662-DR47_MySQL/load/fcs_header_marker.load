@@ -1,0 +1,12 @@
+LOAD DATA LOCAL INFILE "../MySQL/fcs_header_marker.txt"
+    into table fcs_header_marker
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      fcs_header_id,
+      parameter_number,
+      pnn_preferred,
+      pnn_reported,
+      pns_preferred,
+      pns_reported
+    );

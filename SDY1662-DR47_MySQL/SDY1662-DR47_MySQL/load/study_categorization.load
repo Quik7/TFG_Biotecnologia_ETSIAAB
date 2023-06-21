@@ -1,0 +1,9 @@
+LOAD DATA LOCAL INFILE "../MySQL/study_categorization.txt"
+    into table study_categorization
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      study_categorization_id,
+      research_focus,
+      study_accession
+    );

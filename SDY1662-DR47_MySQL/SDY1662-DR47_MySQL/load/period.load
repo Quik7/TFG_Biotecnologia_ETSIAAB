@@ -1,0 +1,11 @@
+LOAD DATA LOCAL INFILE "../MySQL/period.txt"
+    into table period
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      period_accession,
+      name,
+      order_number,
+      study_accession,
+      workspace_id
+    );

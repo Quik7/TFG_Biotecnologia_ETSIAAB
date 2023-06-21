@@ -1,0 +1,30 @@
+LOAD DATA LOCAL INFILE "../MySQL/pcr_result.txt"
+    into table pcr_result
+    fields terminated by '~@~'
+    lines terminated by '~@@~\n'
+    (
+      result_id,
+      arm_accession,
+      biosample_accession,
+      comments,
+      experiment_accession,
+      expsample_accession,
+      gene_id,
+      gene_name,
+      analyte_accession,
+      gene_symbol_preferred,
+      gene_symbol_reported,
+      other_gene_accession,
+      repository_accession,
+      repository_name,
+      study_accession,
+      study_time_collected,
+      study_time_collected_unit,
+      subject_accession,
+      unit_preferred,
+      unit_reported,
+      value_preferred,
+      value_reported,
+      workspace_id
+    );
+
